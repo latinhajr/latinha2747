@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sua sacola | Vinttesete</title>
+<meta name="description" content="Revise as calças da sua sacola, aplique cupom e siga para o checkout na Vinttesete.">
+<meta property="og:title" content="Sua sacola | Vinttesete">
+<meta property="og:description" content="Revise as calças da sua sacola, aplique cupom e siga para o checkout na Vinttesete.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style27.css">
+<script>window.ECO_STORE_BASE=new URL("./",location.href).href;</script><script src="../../_sistema/client.js"></script></head>
+<body data-pagina="carrinho">
+<main>
+<section>
+      <div class="container">
+        <div class="sec-head"><div><span class="tag">quase seu</span><h2>Sua sacola</h2></div></div>
+        <div class="duas-colunas">
+          <div class="painel-box" id="listaCarrinho"></div>
+          <div class="painel-box resumo">
+            <h4 style="margin-bottom:12px">Resumo</h4>
+            <div class="linha"><span>Subtotal</span><span id="subtotal">R$ 0,00</span></div>
+            <div class="linha"><span>Frete</span><span id="frete">Grátis</span></div>
+            <div class="linha" id="descontoLinha" style="display:none"><span>Cupom</span><span class="amarelo" id="desconto"></span></div>
+            <div class="linha total"><span>Total</span><span id="totalCarrinho">R$ 0,00</span></div>
+            <form id="formCupom" style="display:flex;gap:8px;margin:16px 0">
+              <input class="campo" id="cupom" placeholder="Cupom (VINTTE10)">
+              <button class="btn sm" type="submit">Aplicar</button>
+            </form>
+            <a class="btn block" href="checkout.html">Finalizar compra</a>
+            <a class="btn ghost block" style="margin-top:8px" href="catalogo.html">Continuar comprando</a>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+<script src="data.php"></script>
+<script src="js/app.js"></script>
+<script>window.__vtInit && window.__vtInit();</script>
+</body>
+</html>

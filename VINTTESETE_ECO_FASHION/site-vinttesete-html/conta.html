@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minha conta e pedidos | Vinttesete</title>
+<meta name="description" content="Entre ou crie sua conta Vinttesete para acompanhar pedidos, endereços e favoritos.">
+<meta property="og:title" content="Minha conta e pedidos | Vinttesete">
+<meta property="og:description" content="Entre ou crie sua conta Vinttesete para acompanhar pedidos, endereços e favoritos.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style27.css">
+<script>window.ECO_STORE_BASE=new URL("./",location.href).href;</script><script src="../../_sistema/client.js"></script></head>
+<body data-pagina="conta">
+<main>
+<section>
+      <div class="container">
+        <div class="sec-head"><div><span class="tag">área do cliente</span><h2>Minha conta</h2></div></div>
+
+        <div id="areaLogin">
+          <div class="tabs">
+            <button class="on" data-painel="pLogin">Entrar</button>
+            <button data-painel="pCadastro">Criar conta</button>
+          </div>
+          <div class="duas-colunas">
+            <div>
+              <div class="painel on" id="pLogin">
+                <form class="painel-box" id="formLogin">
+                  <h4 style="margin-bottom:14px">Bem-vindo de volta</h4>
+                  <input class="campo" id="loginEmail" type="email" placeholder="E-mail" required style="margin-bottom:10px">
+                  <input class="campo" type="password" placeholder="Senha" required style="margin-bottom:14px">
+                  <button class="btn block" type="submit">Entrar</button>
+                  <p class="muted" style="font-size:.8rem;margin-top:10px">Esqueceu a senha? Chame no chat que a gente resolve.</p>
+                </form>
+              </div>
+              <div class="painel" id="pCadastro">
+                <form class="painel-box" id="formCadastro">
+                  <h4 style="margin-bottom:14px">Criar conta</h4>
+                  <div class="form-grid">
+                    <input class="campo" id="cadNome" placeholder="Nome completo" required>
+                    <input class="campo" placeholder="Celular" required>
+                    <input class="campo full" id="cadEmail" type="email" placeholder="E-mail" required>
+                    <input class="campo" type="password" placeholder="Senha" required>
+                    <input class="campo" type="password" placeholder="Confirmar senha" required>
+                  </div>
+                  <label class="check" style="margin:12px 0"><input type="checkbox" checked> Quero receber os drops por WhatsApp</label>
+                  <button class="btn block" type="submit">Criar minha conta</button>
+                </form>
+              </div>
+            </div>
+            <div class="painel-box">
+              <h4 class="amarelo" style="margin-bottom:10px">Vantagens do cadastro</h4>
+              <p class="muted">Acesso antecipado aos drops de sexta, cupom de 10% na primeira compra, histórico de pedidos e troca express.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="areaLogada" style="display:none">
+          <div class="duas-colunas">
+            <div class="painel-box">
+              <h4 style="margin-bottom:14px">Meus pedidos</h4>
+              <div id="meusPedidos"></div>
+            </div>
+            <div class="painel-box">
+              <h4 id="nomeUser" style="margin-bottom:4px"></h4>
+              <p class="muted" id="emailUser" style="font-size:.85rem"></p>
+              <div style="margin-top:16px;display:grid;gap:8px">
+                <a class="btn ghost block sm" href="catalogo.html">Continuar comprando</a>
+                <button class="btn ghost block sm" id="sair">Sair da conta</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+<script src="data.php"></script>
+<script src="js/app.js"></script>
+<script>window.__vtInit && window.__vtInit();</script>
+</body>
+</html>

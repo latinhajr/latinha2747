@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Produto | Vinttesete calças streetwear</title>
+<meta name="description" content="Detalhes, tamanhos, cores, estoque e avaliações da calça streetwear escolhida na Vinttesete.">
+<meta property="og:title" content="Produto | Vinttesete calças streetwear">
+<meta property="og:description" content="Detalhes, tamanhos, cores, estoque e avaliações da calça streetwear escolhida na Vinttesete.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style27.css">
+<script>window.ECO_STORE_BASE=new URL("./",location.href).href;</script><script src="../../_sistema/client.js"></script></head>
+<body data-pagina="produto">
+<main>
+<section>
+      <div class="container">
+        <p class="muted" style="font-size:.8rem;margin-bottom:16px"><a href="index.html">Home</a> / <a href="catalogo.html">Catálogo</a> / <span class="amarelo">Produto</span></p>
+        <div class="produto" id="prodBox"></div>
+
+        <div class="tabs">
+          <button class="on" data-painel="pDescricao">Descrição</button>
+          <button data-painel="pMedidas">Medidas</button>
+          <button data-painel="pEntrega">Entrega e troca</button>
+          <button data-painel="pAvaliacoes">Avaliações</button>
+        </div>
+
+        <div class="painel on" id="pDescricao">
+          <p>Peça produzida em lotes pequenos, com costura reforçada, aviamentos metálicos e etiqueta interna numerada. Lavar do lado avesso em água fria para preservar a pintura.</p>
+        </div>
+        <div class="painel" id="pMedidas">
+          <div class="tabela-wrap"><table>
+            <thead><tr><th>Tamanho</th><th>Cintura</th><th>Quadril</th><th>Comprimento</th></tr></thead>
+            <tbody>
+              <tr><td>P</td><td>72-78 cm</td><td>98 cm</td><td>104 cm</td></tr>
+              <tr><td>M</td><td>78-84 cm</td><td>104 cm</td><td>106 cm</td></tr>
+              <tr><td>G</td><td>84-92 cm</td><td>110 cm</td><td>108 cm</td></tr>
+              <tr><td>GG</td><td>92-100 cm</td><td>116 cm</td><td>110 cm</td></tr>
+            </tbody>
+          </table></div>
+        </div>
+        <div class="painel" id="pEntrega">
+          <p>Postamos em até 24h úteis. Frete grátis acima de R$ 249. Troca de tamanho gratuita em até 30 dias — chame no chat ou no WhatsApp e enviamos a etiqueta.</p>
+        </div>
+        <div class="painel" id="pAvaliacoes">
+          <div class="duas-colunas">
+            <div id="listaAvaliacoes"></div>
+            <form class="painel-box" id="formAvaliacao">
+              <h4 style="margin-bottom:12px">Deixe sua avaliação</h4>
+              <input class="campo" id="avNome" placeholder="Seu nome" required style="margin-bottom:10px">
+              <select id="avNota" style="width:100%;margin-bottom:10px">
+                <option value="5">5 estrelas</option>
+                <option value="4">4 estrelas</option>
+                <option value="3">3 estrelas</option>
+                <option value="2">2 estrelas</option>
+                <option value="1">1 estrela</option>
+              </select>
+              <textarea class="campo" id="avTexto" rows="4" placeholder="Como foi sua experiência?" required style="margin-bottom:12px"></textarea>
+              <button class="btn block" type="submit">Enviar avaliação</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="sec-head" style="margin-top:56px"><div><span class="tag">combina com</span><h2>Você também vai gostar</h2></div></div>
+        <div class="grid-produtos" id="relacionados"></div>
+      </div>
+    </section>
+</main>
+<script src="data.php"></script>
+<script src="js/app.js"></script>
+<script>window.__vtInit && window.__vtInit();</script>
+</body>
+</html>

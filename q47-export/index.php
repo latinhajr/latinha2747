@@ -1,0 +1,1 @@
+<?php header('Location: _src-site/home.html'); exit;
